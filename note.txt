@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Add your meta tags, title, and other head content here -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" />
+        </a>
+
+        <!-- Add a button to toggle the off-canvas menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Off-canvas menu content -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNavDropdown">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <!-- Include your navigation links and dropdown menus here -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content of your page -->
+    <div class="container">
+      <!-- Add your content here -->
+    </div>
+
+    <!-- Include Bootstrap and other scripts here -->
+  </body>
+</html>

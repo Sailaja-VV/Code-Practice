@@ -1,0 +1,6 @@
+$primary: hsl(0, 0%, 98%);
+$secondary: hsl(0, 0%, 41%);
+$body-bg: $primary;
+$dropdown-border-color: $primary;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
